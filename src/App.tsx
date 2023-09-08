@@ -1,10 +1,18 @@
 import './App.css';
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import LandingPage from './pages/LandingPage';
 
 function App() {
   return (
-    <>
-      <h1>presmit</h1>
-    </>
+   <div className="container">
+      <Router>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          </Routes>
+      </Router>
+   </div>
   );
 }
 
