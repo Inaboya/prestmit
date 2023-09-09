@@ -24,7 +24,6 @@
   gap: 3rem;
 } */
 
-
 .header-container {
   width: 100%;
   height: 4rem;
@@ -102,7 +101,6 @@
   /* background: red; */
   /* border: 5px solid red; */
   padding: 0 4rem;
-
 }
 
 .home__wrapper {
@@ -401,7 +399,6 @@
   color: var(--Gray, #777);
   margin-top: 6rem;
 
-
   /* Paragraphs/Text S */
   font-size: 20px;
   font-style: normal;
@@ -494,8 +491,6 @@
 
 .services-about-container {
   /* width: 100%; */
- 
-
 }
 
 .card {
@@ -617,6 +612,14 @@
   /* flex-direction: column; */
 }
 
+.content-image-container-2 {
+  width: 344px;
+  height: 423px;
+  position: relative;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
 .inner-image-container {
   width: 200px;
   height: 388px;
@@ -635,7 +638,7 @@
 }
 
 .inner-image-container-2 {
-  width: 100%;
+  width: 200px;
   height: 288px;
   flex-shrink: 0;
   border-radius: 12px;
@@ -646,7 +649,7 @@
   position: absolute;
   right: 29%;
   transform: translateX(-50%);
-  top: 90%;
+  top: 100%;
   transform: translateY(-50%);
   padding: 3rem;
 }
@@ -655,24 +658,24 @@
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  fill: #0DBBFC;
-  background: #0DBBFC;
+  fill: #0dbbfc;
+  background: #0dbbfc;
 }
 
 .dot2 {
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  fill: #69E6A6;
-  background: #69E6A6;
+  fill: #69e6a6;
+  background: #69e6a6;
 }
 
 .dot3 {
   width: 5px;
   height: 5px;
   border-radius: 100%;
-  fill: #C4C4C4;
-  background: #C4C4C4;
+  fill: #c4c4c4;
+  background: #c4c4c4;
 }
 
 .text-2-container {
@@ -683,7 +686,7 @@
 }
 
 .text-2-text {
-  color: #000;/* 171.429% */
+  color: #000; /* 171.429% */
 }
 
 .inner-wrapper-text-2 {
@@ -693,7 +696,7 @@
   flex-direction: column;
   align-items: flex-start;
   /* gap: 56px; */
-  gap: .2rem;
+  gap: 0.2rem;
 }
 .inner-wrapper {
   display: flex;
@@ -706,8 +709,8 @@
 .inner-wrapper-2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  /* align-items: center; */
   gap: 1rem;
 }
 
@@ -717,11 +720,10 @@
 }
 
 .inner-image-con-2 {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 50px;
   margin-top: 40px;
 }
-
 
 .image-2 {
   width: 100%;
@@ -828,7 +830,6 @@
   font-size: 24px;
   color: #fff;
 }
-
 
 /* Auto-scroll animation */
 @keyframes scroll {

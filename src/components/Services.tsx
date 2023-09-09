@@ -215,7 +215,7 @@ const Services: React.FC<ServicesInterface> = ({ ref }) => {
                 </div>
 
                 <div className="side-content-container-2">
-                  <div className="content-image-container">
+                  <div className="content-image-container-2">
                     <img
                       src={require("../assets/content_image_2.png")}
                       alt=""
