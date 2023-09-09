@@ -84,7 +84,62 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
           </div>
         </div>
 
-        <div className="home_content--carousel">C</div>
+        <div className="home_content--carousel">
+          {/* <div className="carousel auto-scrolling">
+            <div className="carousel-item">
+              <img
+                src={require("../assets/boldo_logo.png")}
+                alt="logo"
+                className="carousel__img"
+              />
+              <h1>Boldo</h1>
+            </div>
+            <div className="carousel-item">
+              <img
+                src={require("../assets/boldo_logo.png")}
+                alt="logo"
+                className="carousel__img"
+              />
+              <h1>Presto</h1>
+            </div>
+
+            <div className="carousel-item">
+              <img
+                src={require("../assets/boldo_logo.png")}
+                alt="logo"
+                className="carousel__img"
+              />
+              <h1>Boldo</h1>
+            </div>
+
+            <div className="carousel-item">
+              <img
+                src={require("../assets/boldo_logo.png")}
+                alt="logo"
+                className="carousel__img"
+              />
+              <h1>Presto</h1>
+            </div>
+
+            <div className="carousel-item">
+              <img
+                src={require("../assets/boldo_logo.png")}
+                alt="logo"
+                className="carousel__img"
+              />
+              <h1>Boldo</h1>
+            </div>
+
+            <div className="carousel-item">
+              <img
+                src={require("../assets/boldo_logo.png")}
+                alt="logo"
+                className="carousel__img"
+              />
+              <h1>Presto</h1>
+            </div>
+          </div> */}
+        </div>
       </div>
     </div>
   );
