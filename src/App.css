@@ -571,7 +571,7 @@
   /* position: absolute; */
   /* push to the right with some spacing on the left and to cover some page of .content-image*/
   position: absolute;
-  left: 30%;
+  left: 40%;
   transform: translateX(-70%);
   top: 90%;
   transform: translateY(-50%);
