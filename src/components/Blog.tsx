@@ -142,8 +142,14 @@ const Blog: React.FC<BlogInterface> = ({ ref }) => {
                 </h1>
               </div>
 
-              <div className="blog-2-button-container">
-                
+              <div className="blog-2-button-wrapper">
+                <div className="blog-2-btn-wrapper">
+                    <input type="text" className="form-control" placeholder="Your email address" />
+                </div>
+
+                <div className="blog-2-btn-wrapper-2">
+                    <button className="blog-2-btn">Start now</button>
+                </div>
               </div>
             </div>
           </div>
