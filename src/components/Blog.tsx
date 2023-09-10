@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 interface BlogInterface {
   ref: React.RefObject<HTMLDivElement> | null;
@@ -144,16 +145,23 @@ const Blog: React.FC<BlogInterface> = ({ ref }) => {
 
               <div className="blog-2-button-wrapper">
                 <div className="blog-2-btn-wrapper">
-                    <input type="text" className="form-control" placeholder="Your email address" />
+                  <input
+                    type="text"
+                    className="form-control"
+                    placeholder="Your email address"
+                  />
                 </div>
 
                 <div className="blog-2-btn-wrapper-2">
-                    <button className="blog-2-btn">Start now</button>
+                  <button className="blog-2-btn">Start now</button>
                 </div>
               </div>
             </div>
           </div>
+
+          <Footer />
         </div>
+        
       </div>
     </div>
   );

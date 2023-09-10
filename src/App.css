@@ -1063,10 +1063,6 @@ input::placeholder {
   /* gap: 1rem; */
 }
 
-.services-about-container {
-  /* width: 100%; */
-}
-
 .card {
   display: flex;
   width: 300px;
@@ -1423,6 +1419,60 @@ input::placeholder {
   justify-content: center;
   font-size: 24px;
   color: #fff;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+  margin-top: 10rem;
+}
+
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.logo-image-container {
+  width: 24.917px;
+  height: 32.368px;
+  /* flex-shrink: 0; */
+}
+
+.footer-heading-text {
+  color: var(--Dark-Blue, #0a2640);
+  font-size: 43.25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33.639px; /* 77.778% */
+}
+
+.footer-heading-text-1 {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-text {
+  color: var(--Gray, #777);
+
+  /* Paragraphs/Text XS */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
 
 /* Auto-scroll animation */
