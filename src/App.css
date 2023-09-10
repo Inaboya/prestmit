@@ -659,7 +659,9 @@
 
 .blog-2-btn-wrapper {
   display: inline-flex;
-  padding: 16px 40px;
+  width: 370px;
+  height: 56px;
+  padding: 16px 56px;
   justify-content: flex-start;
   align-items: center;
   gap: 8px;
