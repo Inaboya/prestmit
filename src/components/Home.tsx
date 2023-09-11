@@ -84,7 +84,7 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
           </div>
         </div>
 
-        <div className="home_content--carousel">
+        <div className="carousel">
           <div className="carousel-slider">
             <img
               src={require("../assets/carousel_logos.png")}
