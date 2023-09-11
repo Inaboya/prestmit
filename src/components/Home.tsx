@@ -123,6 +123,24 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
               className="card-images"
               alt=""
             />
+
+            <img
+              src={require("../assets/carousel_logos.png")}
+              className="card-images"
+              alt=""
+            />
+
+            <img
+              src={require("../assets/carousel_logos.png")}
+              className="card-images"
+              alt=""
+            />
+
+            <img
+              src={require("../assets/carousel_logos.png")}
+              className="card-images"
+              alt=""
+            />
           </div>
         </div>
       </div>
