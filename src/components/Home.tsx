@@ -46,6 +46,24 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
                   <div className="progress-bar"></div>
                   <p className="bar-text">80%</p>
                 </div>
+
+                <div className="side-2-content-1">
+                  <div className="div-one"></div>
+                  <div className="progress-bar-2"></div>
+                  <p className="bar-text">30%</p>
+                </div>
+
+                <div className="side-2-content-1">
+                  <div className="div-one"></div>
+                  <div className="progress-bar-3"></div>
+                  <p className="bar-text">100%</p>
+                </div>
+
+                <div className="side-2-content-1">
+                  <div className="div-one"></div>
+                  <div className="progress-bar-4"></div>
+                  <p className="bar-text">73%</p>
+                </div>
               </div>
             </div>
 
@@ -82,9 +100,9 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
                   </div>
 
                   <div className="content-2-long-lines">
-                    <div className="line-1"></div>
-                    <div className="line-2"></div>
-                    <div className="line-3"></div>
+                    <div className="progress-bar-5"></div>
+                    <div className="progress-bar-5"></div>
+                    <div className="progress-bar-5"></div>
                   </div>
                 </div>
               </div>
