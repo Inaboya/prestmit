@@ -39,6 +39,14 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
                 <div className="dot-2"></div>
                 <div className="dot-3"></div>
               </div>
+
+              <div className="side-2-content">
+                <div className="side-2-content-1">
+                  <div className="div-one"></div>
+                  <div className="progress-bar"></div>
+                  <p className="bar-text">80%</p>
+                </div>
+              </div>
             </div>
 
             <div className="side__2--content-2">
@@ -98,7 +106,6 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
               alt=""
             />
           </div>
-          
         </div>
       </div>
     </div>
