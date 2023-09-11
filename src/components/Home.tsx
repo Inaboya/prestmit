@@ -85,60 +85,20 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
         </div>
 
         <div className="home_content--carousel">
-          {/* <div className="carousel auto-scrolling">
-            <div className="carousel-item">
-              <img
-                src={require("../assets/boldo_logo.png")}
-                alt="logo"
-                className="carousel__img"
-              />
-              <h1>Boldo</h1>
-            </div>
-            <div className="carousel-item">
-              <img
-                src={require("../assets/boldo_logo.png")}
-                alt="logo"
-                className="carousel__img"
-              />
-              <h1>Presto</h1>
-            </div>
+          <div className="carousel-slider">
+            <img
+              src={require("../assets/carousel_logos.png")}
+              className="card-images"
+              alt=""
+            />
 
-            <div className="carousel-item">
-              <img
-                src={require("../assets/boldo_logo.png")}
-                alt="logo"
-                className="carousel__img"
-              />
-              <h1>Boldo</h1>
-            </div>
-
-            <div className="carousel-item">
-              <img
-                src={require("../assets/boldo_logo.png")}
-                alt="logo"
-                className="carousel__img"
-              />
-              <h1>Presto</h1>
-            </div>
-
-            <div className="carousel-item">
-              <img
-                src={require("../assets/boldo_logo.png")}
-                alt="logo"
-                className="carousel__img"
-              />
-              <h1>Boldo</h1>
-            </div>
-
-            <div className="carousel-item">
-              <img
-                src={require("../assets/boldo_logo.png")}
-                alt="logo"
-                className="carousel__img"
-              />
-              <h1>Presto</h1>
-            </div>
-          </div> */}
+            <img
+              src={require("../assets/carousel_logos.png")}
+              className="card-images"
+              alt=""
+            />
+          </div>
+          
         </div>
       </div>
     </div>
