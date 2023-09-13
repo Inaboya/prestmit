@@ -255,8 +255,10 @@
 
 .home_content--first {
   width: 100%;
-  height: 25rem;
+  /* height: 25rem; */
   display: flex;
+  justify-content: space-between;
+  
 }
 
 @keyframes Slide {
@@ -545,7 +547,10 @@
   background: rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(34.35533142089844px);
   padding: 1rem;
+  /* display: flex; */
 }
+
+
 
 .image-container {
   display: flex;
@@ -561,7 +566,9 @@
 
 .content-2-image-container {
   display: flex;
-  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 2rem; */
 }
 
 .content-2-long-lines {
@@ -576,22 +583,6 @@
   width: 20%;
 }
 
-.line-1,
-.line-2,
-.line-3 {
-  border-radius: 14.132px;
-  background: #95abbc;
-  height: 2px;
-}
-
-.line-1,
-.line-3 {
-  width: 15rem;
-}
-
-.line-2 {
-  width: 12rem;
-}
 
 .services-container {
   width: 100%;
@@ -1468,7 +1459,76 @@ input::placeholder {
   display: none;
 }
 
+@media only screen and (max-width: 1200px) {
+  .home__container {
+    margin: 2rem auto;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .navbar__container {
+    width: 100%;
+    height: 100%;
+    padding: 0 2rem;
+  }
+}
+
+
 @media only screen and (max-width: 992px) {
+
+  .home__container {
+    margin: 1rem auto;
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .navbar__container {
+    width: 100%;
+    height: 100%;
+    padding: 0 1rem;
+  }
+
+  .home_content--first {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 1rem;
+    
+  }
+
+  .side__1 {
+    width: 100%;
+    /* height: 100%; */
+  }
+
+  .side__2 {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .side__1--wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+  }
+
+  .side__1--heading {
+    color: #fff;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+  }
   .navbar__links {
     display: none;
   }
@@ -1530,5 +1590,33 @@ input::placeholder {
     /* justify-content: center; */
     /* align-items: center; */
     gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .progress-bar {
+    width: 13rem;
+  }
+
+  .progress-bar-2 {
+    width: 8rem
+  }
+
+  .progress-bar-3 {
+    width: 16rem;
+  }
+
+  .progress-bar-4 {
+    width: 10rem;
+  }
+
+  .progress-bar-5 {
+    width: 10rem;
+  }
+}
+
+@media only screen and (max-width: 576px) { 
+  .progress-bar-5 {
+    width: 6rem;
   }
 }

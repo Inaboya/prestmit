@@ -91,6 +91,7 @@ const Home: React.FC<HomeInterface> = ({ ref }) => {
                 </div>
 
                 <div className="content-2-image-container">
+                  
                   <div className="image-2-container-first">
                     <img
                       src={require("../assets/pie_chart.png")}
