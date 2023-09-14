@@ -3,18 +3,9 @@ import { NavLink } from "react-router-dom";
 import Modal from "./Modal";
 // import logo from "../assets/boldo_logo.png"
 
-interface NavbarInterface {
-  ref: React.RefObject<HTMLDivElement> | null;
-}
 
-const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
+const Navbar: React.FC = () => {
   const [openMenu, setOpenMenu] = React.useState(false);
-  const handleScroll = () => {
-    if (ref && ref.current) {
-      ref.current.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   const handleOpenMenu = () => {
     setOpenMenu(!openMenu);
   };
@@ -45,9 +36,9 @@ const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
               <NavLink
                 className="navbar__menu--item"
                 to="/"
-                onClick={handleScroll}
+                
               >
-                Home
+                Product
               </NavLink>
             </div>
 
@@ -55,15 +46,15 @@ const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
               <NavLink
                 className="navbar__menu--item"
                 to="/"
-                onClick={handleScroll}
+                
               >
-                My Work
+              Service
               </NavLink>
             </div>
 
             <div>
               <NavLink className="navbar__menu--item" to="/about">
-                About Me
+                About
               </NavLink>
             </div>
 
@@ -71,9 +62,9 @@ const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
               <NavLink
                 className="navbar__menu--item"
                 to="/"
-                onClick={handleScroll}
+                
               >
-                Contact Me
+                Log In
               </NavLink>
             </div>
           </div>
@@ -81,7 +72,7 @@ const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
       )}
       <div className="navbar__wrapper">
         <div className="logo__container">
-          <NavLink to="/" className="logo__link" onClick={handleScroll}>
+          <NavLink to="/" className="logo__link" >
             <img
               src={require("../assets/boldo_logo.png")}
               alt="logo"
@@ -96,7 +87,7 @@ const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
             <NavLink
               to="/"
               className="navbar__link--item"
-              onClick={handleScroll}
+              
             >
               Product
             </NavLink>
@@ -106,7 +97,7 @@ const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
             <NavLink
               to="/"
               className="navbar__link--item"
-              onClick={handleScroll}
+              
             >
               Services
             </NavLink>
@@ -116,7 +107,7 @@ const Navbar: React.FC<NavbarInterface> = ({ ref }) => {
             <NavLink
               to="/"
               className="navbar__link--item"
-              onClick={handleScroll}
+              
             >
               About
             </NavLink>

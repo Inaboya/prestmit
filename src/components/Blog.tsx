@@ -1,12 +1,9 @@
 import React from "react";
 import Footer from "./Footer";
 
-interface BlogInterface {
-  ref: React.RefObject<HTMLDivElement> | null;
-}
-const Blog: React.FC<BlogInterface> = ({ ref }) => {
+const Blog: React.FC = () => {
   return (
-    <div className="services-container" ref={ref}>
+    <div className="services-container">
       <div className="blog-container-wrapper">
         <div className="blog-container">
           <div className="blog-wrapper">

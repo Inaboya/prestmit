@@ -1,12 +1,8 @@
 import React from "react";
 
-interface AboutInterface {
-  ref: React.RefObject<HTMLDivElement> | null;
-}
-
-const About: React.FC<AboutInterface> = ({ ref }) => {
+const About: React.FC = () => {
   return (
-    <div className="wrapper" ref={ref}>
+    <div className="wrapper">
       <div className="about-container">
         <div className="about-wrapper">
           <div className="about-wrapper-container-1">

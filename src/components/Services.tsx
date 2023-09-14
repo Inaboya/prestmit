@@ -1,13 +1,10 @@
 import React from "react";
 import ArrowRightSVG from "../assets/arrow_right.svg";
 
-interface ServicesInterface {
-  ref: React.RefObject<HTMLDivElement> | null;
-}
 
-const Services: React.FC<ServicesInterface> = ({ ref }) => {
+const Services: React.FC = () => {
   return (
-    <div className="services-container" ref={ref}>
+    <div className="services-container">
       <div className="services-wrapper">
         <div className="services-header-container">
           <h1 className="services-heading">Our Services</h1>

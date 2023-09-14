@@ -6,21 +6,20 @@ import About from '../components/About'
 import Blog from '../components/Blog'
 
 const LandingPage: React.FC = () => {
-  const ref = React.useRef<HTMLDivElement>(null)
   return (
     <>
         <header className="header-container">
-            <Navbar ref={ref}/>
+            <Navbar />
         </header>
 
         <main className="main-container">
-            <Home ref={ref} />
+            <Home  />
 
-            <Services ref={ref} />
+            <Services  />
 
-            <About ref={ref} />
+            <About  />
 
-            <Blog ref={ref} />
+            <Blog  />
         </main>
     </>
   )

@@ -1,12 +1,9 @@
 import React from "react";
 
-interface HomeInterface {
-  ref: React.RefObject<HTMLDivElement> | null;
-}
 
-const Home: React.FC<HomeInterface> = ({ ref }) => {
+const Home: React.FC= () => {
   return (
-    <div className="home__container" ref={ref}>
+    <div className="home__container">
       <div className="home__wrapper">
         <div className="home_content--first">
           <div className="side__1">
