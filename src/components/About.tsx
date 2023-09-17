@@ -152,7 +152,6 @@ const About: React.FC = () => {
                   </div>
                   <div className="white-line"></div>
                 </div>
-                
               </div>
             </div>
           </div>
